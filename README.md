@@ -42,12 +42,12 @@ Note personnel dû au manque de temps:
 * Ajout d'un menu principale
 * Réglage des touches
 * Utiliser place au lieu d'un cube pour le sol pour les performances
-
+-------------
 
 # Référence :
 
 Compréhension des principes de base de l'IDE : https://youtu.be/oeiYBMMWU40?si=dXSo2cNabRke_JWj
-
+Bounce ball : https://www.youtube.com/watch?v=oeiYBMMWU40&t=1818s
 Asset du goal (filet retiré en raison d'un bug qui peut visiblement pas être résolu sans blender): https://sketchfab.com/3d-models/soccer-goal-dd82dcb8975543658f4ee5097637cb39
 
 Gitignore reprit de https://github.com/EvilMindDevs/TwinBalls-Reference-Game/blob/main/.gitignore

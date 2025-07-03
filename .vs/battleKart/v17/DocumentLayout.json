@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\Scripts\\goalScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\goalScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\goalScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\goalScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -44,13 +48,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "goalScript.cs",
-              "DocumentMoniker": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\goalScript.cs",
-              "RelativeDocumentMoniker": "Assets\\goalScript.cs",
-              "ToolTip": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\goalScript.cs",
-              "RelativeToolTip": "Assets\\goalScript.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAhwBcAAABdAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\Scripts\\goalScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\goalScript.cs",
+              "ToolTip": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\Scripts\\goalScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\goalScript.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAhwDQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T17:23:32.321Z",
+              "WhenOpened": "2025-07-03T19:56:23.953Z",
               "EditorCaption": ""
             },
             {
@@ -63,7 +67,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "goalScript.cs",
+              "DocumentMoniker": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\goalScript.cs",
+              "RelativeDocumentMoniker": "Assets\\goalScript.cs",
+              "ToolTip": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\goalScript.cs",
+              "RelativeToolTip": "Assets\\goalScript.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:23:32.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerInput.cs",
               "DocumentMoniker": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\PlayerInput\\PlayerInput.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7\\InputSystem\\Plugins\\PlayerInput\\PlayerInput.cs",
@@ -75,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "playerScript.cs",
               "DocumentMoniker": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\playerScript.cs",
               "RelativeDocumentMoniker": "Assets\\playerScript.cs",
@@ -83,12 +98,11 @@
               "RelativeToolTip": "Assets\\playerScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:49:17.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T10:49:17.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerControls.cs",
               "DocumentMoniker": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Assets\\PlayerControls.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerControls.cs",
@@ -99,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Users\\Dofault\\battlekartProject\\battleKart\\Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@2b88762731f8\\Shaders\\Lit.shader",

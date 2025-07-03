@@ -17,6 +17,7 @@ public class Goal : MonoBehaviour
     private Vector3 player2StartPos;
     private Vector3 ballStartPos;
 
+
     public TextMeshProUGUI scoreText;
 
     void UpdateScoreUI()
@@ -48,6 +49,7 @@ public class Goal : MonoBehaviour
             if (this.CompareTag("Goal1")) 
             {
                 gameManager.scoreP2++;  
+
             }
             else if (this.CompareTag("Goal2")) 
             {
@@ -73,4 +75,5 @@ public class Goal : MonoBehaviour
             ballRb.angularVelocity = Vector3.zero;
         }
     }
+
 }
