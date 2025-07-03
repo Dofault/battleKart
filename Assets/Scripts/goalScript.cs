@@ -22,7 +22,7 @@ public class Goal : MonoBehaviour
 
     void UpdateScoreUI()
     {
-        scoreText.text = "P1: " + gameManager.scoreP1 + " - " + gameManager.scoreP2 + " :P2";
+        scoreText.text = "BLUE  " + gameManager.scoreP1 + " - " + gameManager.scoreP2 + "  RED";
     }
 
     void Start()
@@ -41,6 +41,8 @@ public class Goal : MonoBehaviour
         ballStartPos = ball.position;
     }
 
+
+    // appelé quand la balle entre en collision avec le but
     void OnTriggerEnter(Collider other)
     {
 
@@ -53,10 +55,10 @@ public class Goal : MonoBehaviour
             }
             else if (this.CompareTag("Goal2")) 
             {
-                gameManager.scoreP1++;  // Si la balle rentre dans le goal de P2, P1 marque
+                gameManager.scoreP1++;  // P1 marque si balle dans goal P2
             }
 
-            Debug.Log("Score P1: " + scoreP1 + " | Score P2: " + scoreP2);
+            Debug.Log("Score P1: " + scoreP1 + ",core P2: " + scoreP2);
             UpdateScoreUI();
             ResetPositions();
         }

@@ -1,53 +1,50 @@
+# Contexte  
+Ce projet a pour but de créer un jeu de football en 3D en utilisant Unity et C#.
 
-# Contexte
-Ce projet a pour but de crée un jeu de football en 3D en utilisant Unity et C#
+## Touches du jeu  
+* Joueur 1 : contrôles via **WASD**  
+* Joueur 2 : contrôles via les **flèches directionnelles**  
+* Pause via la touche **ECHAP**
 
-## Fonctionnalités du prototype
-* Joueur et Contrôles : Le prototype inclut au moins un joueur contrôlable
-avec des mouvements basiques.
-    * Joueur 1 : WASD
-    * Joueur 2 : Flèche directionnel
-* Ballon : Un ballon doit est présent dans le jeu qui interagit physiquement avec
-l'environnement.
-* Collisions : Collisions entre les joueurs, les murs et les buts.
+## Fonctionnalités du prototype  
+| Fonctionnalité                          | Statut                |
+|---------------------------------------|-----------------------|
+| Joueurs et contrôles (WASD / flèches) | Implémenté            |
+| Pause via ECHAP                       | Implémenté            |
+| Horloge durant le match               | Implémenté            |
+| Musique de fond                      | Implémenté            |
+| Ballon avec interaction physique      | Implémenté            |
+| Gestion des collisions                | Implémenté            |
+| Collision joueur / murs               | Partiellement implémenté |
+| Configuration personnalisée des touches| Non implémenté       |
+| Configuration graphique               | Non implémenté        |
+| Ajout de bruitages                    | Non implémenté        |
 
-# Approche : 
+## Approche  
+L’objectif était de créer un prototype fonctionnel le plus rapidement possible sans connaissance préalable d’Unity.
 
-L'approche a été de crée un prototype fonctionnel le plus rapidement possible en partant d'aucune connaissance en Unity.
+### Évolution du développement  
+* **~3 heures :** compréhension de l’IDE et setup du projet  
+* **~5 heures :** prototype jouable avec deux joueurs et système de score  
 
-## Temps investi
-* ***+- 3 heures*** pour comprendre le fonctionnement de l'IDE + setup du projet 
-* ***+-5 heures*** pour le premier prototype jouable avec deux joueurs et un score fonctionnel
+![V1](game_V1.png)  
 
+* **~3 heures :** ajout de l’horloge, des menus, de la musique, documentation, etc.  
+![alt text](game_V2.png)  
 
-
-
-## Choix technique:
-* Utilisation du singleton GameManager pour centraliser le score
-Je pouvais pas 
-
-
-
-utiliser place au lieu d'un cube pour le sol 
-
-
-Note personnel dû au manque de temps:
-
-- Utilisation d'un place au lieu d'un cube pour le sol 
-
+## Choix techniques  
+* Utilisation du **singleton GameManager** pour centraliser le score  
+* Utilisation de **Rigidbody** et **BoxCollider** pour la physique  
 
 
-# Pistes d'amélioration
-* Ajout d'une horloge pour le match
-* Ajout d'un menu principale
-* Réglage des touches
-* Utiliser place au lieu d'un cube pour le sol pour les performances
--------------
+# Références  
+* Tutoriel Unity utilisé : [YouTube](https://youtu.be/oeiYBMMWU40?si=dXSo2cNabRke_JWj)  
+* Bounce Ball : [YouTube](https://www.youtube.com/watch?v=oeiYBMMWU40&t=1818s)  
+* Asset du but (filet retiré) : [Sketchfab](https://sketchfab.com/3d-models/soccer-goal-dd82dcb8975543658f4ee5097637cb39)  
+* Gitignore repris de : [TwinBalls GitHub](https://github.com/EvilMindDevs/TwinBalls-Reference-Game/blob/main/.gitignore)  
+* Musique Champions League : [YouTube](https://www.youtube.com/watch?v=ttjGFkand7s&list=RDttjGFkand7s&start_radio=1)  
 
-# Référence :
+# Images
+![alt text](main_menu.png)
 
-Compréhension des principes de base de l'IDE : https://youtu.be/oeiYBMMWU40?si=dXSo2cNabRke_JWj
-Bounce ball : https://www.youtube.com/watch?v=oeiYBMMWU40&t=1818s
-Asset du goal (filet retiré en raison d'un bug qui peut visiblement pas être résolu sans blender): https://sketchfab.com/3d-models/soccer-goal-dd82dcb8975543658f4ee5097637cb39
-
-Gitignore reprit de https://github.com/EvilMindDevs/TwinBalls-Reference-Game/blob/main/.gitignore
+![alt text](gameplay.png)
