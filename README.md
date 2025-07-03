@@ -48,6 +48,6 @@ Note personnel dû au manque de temps:
 
 Compréhension des principes de base de l'IDE : https://youtu.be/oeiYBMMWU40?si=dXSo2cNabRke_JWj
 
-Asset du goal : https://sketchfab.com/3d-models/soccer-goal-dd82dcb8975543658f4ee5097637cb39#download
+Asset du goal (filet retiré en raison d'un bug qui peut visiblement pas être résolu sans blender): https://sketchfab.com/3d-models/soccer-goal-dd82dcb8975543658f4ee5097637cb39
+
 Gitignore reprit de https://github.com/EvilMindDevs/TwinBalls-Reference-Game/blob/main/.gitignore
-Stackoverflow,

@@ -42,7 +42,6 @@ public class Goal : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-            Debug.Log("rrrr");
 
         if (other.CompareTag("Ball"))
         {
