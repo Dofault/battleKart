@@ -575,7 +575,7 @@ MonoBehaviour:
   scoreP1: 0
   scoreP2: 0
   isPaused: 0
-  gameTime: 10
+  gameTime: 30
 --- !u!4 &190684659
 Transform:
   m_ObjectHideFlags: 0
